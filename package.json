@@ -1,0 +1,71 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@types/react": "^16.9.15",
+    "algoliasearch": "^3.35.1",
+    "babel-plugin-styled-components": "^1.10.6",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.18.4",
+    "gatsby-image": "^2.2.34",
+    "gatsby-plugin-algolia-search": "^0.5.6",
+    "gatsby-plugin-google-analytics": "^2.1.29",
+    "gatsby-plugin-manifest": "^2.2.30",
+    "gatsby-plugin-netlify-cms": "^4.1.31",
+    "gatsby-plugin-offline": "^3.0.24",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-sharp": "^2.3.4",
+    "gatsby-plugin-sitemap": "^2.2.22",
+    "gatsby-plugin-styled-components": "^3.1.14",
+    "gatsby-plugin-transition-link": "^1.16.2",
+    "gatsby-remark-images": "^3.1.35",
+    "gatsby-remark-lazy-load": "^1.0.2",
+    "gatsby-remark-prismjs": "^3.3.25",
+    "gatsby-remark-relative-images": "^0.2.3",
+    "gatsby-source-filesystem": "^2.1.39",
+    "gatsby-transformer-remark": "^2.6.39",
+    "gatsby-transformer-sharp": "^2.3.6",
+    "gsap": "^3.0.2",
+    "lazysizes": "^5.2.0-beta1",
+    "netlify-cms-app": "^2.9.7",
+    "prism-theme-night-owl": "^1.2.0",
+    "prismjs": "^1.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-disqus-comments": "^1.4.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-instantsearch-dom": "^6.0.0",
+    "styled-components": "^4.4.1",
+    "styled-icons": "^9.0.1",
+    "styled-media-query": "^2.1.2",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:playground": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
